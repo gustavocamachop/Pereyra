@@ -12,5 +12,7 @@ namespace Gustavo.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Gustavo.Models.Fairy> Fairies { get; set; }
     }
 }
